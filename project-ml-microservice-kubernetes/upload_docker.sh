@@ -6,12 +6,12 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="ndiklasthecoder/operationalize-project "
+dockerpath="ndiklasthecoder/micromachinelearn"
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag operationalize-project $dockerpath
+docker tag micromachinelearn $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
